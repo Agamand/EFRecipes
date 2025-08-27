@@ -48,7 +48,7 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="ACulinaryArtillery">
-      <HintPath>E:\Dev\vintagestory\ACulinaryArtillery\Releases\aculinaryartillery/ACulinaryArtillery.dll</HintPath>
+      <HintPath>$(ACA_LIB)/ACulinaryArtillery.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
