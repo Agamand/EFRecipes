@@ -1,98 +1,68 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <LangVersion>9</LangVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
   </PropertyGroup>
+
   <ItemGroup>
-    <Compile Remove="publish\**" />
-    <EmbeddedResource Remove="publish\**" />
-    <None Remove="publish\**" />
-  </ItemGroup>    
-  <ItemGroup>
-    <None Update="**\*.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="**\*.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="**\*.ttinclude">
-      <Generator></Generator>
-    </None>
-      <None Update="**\*.tt">
-        <Generator>TextTemplatingFileGenerator</Generator>
-    </None>
-    <None Update="assets\expandedfoods\recipes\simmering\broth.tt">
-      <LastGenOutput>broth.json</LastGenOutput>
-    </None>
-    <None Update="assets\expandedfoods\recipes\simmering\primitivesurvival\broth.tt">
-      <LastGenOutput>broth.json</LastGenOutput>
-    </None>
-    <None Update="assets\exper\itemtypes\wand.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\four.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\one.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\three.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\exper\textures\item\two.png">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="changelog.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Properties\launchSettings.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>$(AppData)\Vintagestory\Lib\0Harmony.dll</HintPath>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="ACulinaryArtillery">
-      <HintPath>..\..\ACulinaryArtillery--l33tFork\bin\Release\net7.0\ACulinaryArtillery.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="0Harmony">
+      <HintPath>$(VINTAGE_STORY)/Lib\0Harmony.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="cairo-sharp">
-      <HintPath>$(AppData)\Vintagestory\Lib\cairo-sharp.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/Lib/cairo-sharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>$(AppData)\Vintagestory\Lib\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/Lib/Newtonsoft.Json.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>$(AppData)\Vintagestory\Lib\protobuf-net.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/Lib/protobuf-net.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VintagestoryAPI">
-      <HintPath>$(AppData)\Vintagestory\VintagestoryAPI.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VintagestoryLib">
-      <HintPath>$(AppData)\Vintagestory\VintagestoryLib.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/VintagestoryLib.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSCreativeMod">
-      <HintPath>$(AppData)\Vintagestory\Mods\VSCreativeMod.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/Mods/VSCreativeMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSEssentials">
-      <HintPath>$(AppData)\Vintagestory\Mods\VSEssentials.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/Mods/VSEssentials.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSSurvivalMod">
-      <HintPath>$(AppData)\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
+      <HintPath>$(VINTAGE_STORY)/Mods/VSSurvivalMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="ACulinaryArtillery">
+      <HintPath>E:\Dev\vintagestory\ACulinaryArtillery\Releases\aculinaryartillery/ACulinaryArtillery.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
+
   <ItemGroup>
-    <Folder Include="assets\expandedfoods\textures\item\food\nut\" />
+    <Content Include="modinfo.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
-  <ProjectExtensions><VisualStudio><UserProperties assets_4expandedfoods_4lang_4en_1json__JsonSchema="https://carafe.fm/schema/draft-02/bundle.schema.json" /></VisualStudio></ProjectExtensions>  
+
+  <ItemGroup>
+    <Content Include="modicon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

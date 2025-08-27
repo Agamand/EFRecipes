@@ -2,7 +2,7 @@
 	ingredientPattern: "P,B",
 	ingredients: {
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-fired" }
+		"B": { type: "block", code: "game:bowl-*-fired" }
 	},
 	width: 1,
 	height: 2,
