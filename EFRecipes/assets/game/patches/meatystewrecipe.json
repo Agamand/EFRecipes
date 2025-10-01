@@ -297,7 +297,7 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/2/validStacks/-",
+    "path": "/ingredients/3/validStacks/-",
     "value": [
         {
             "type": "item",
@@ -762,7 +762,7 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/2/validStacks/-",
+    "path": "/ingredients/3/validStacks/-",
     "value": [
         {
             "type": "item",
@@ -852,7 +852,7 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/3/validStacks/-",
+    "path": "/ingredients/4/validStacks/-",
     "value": [
         {
             "type": "item",
@@ -1298,7 +1298,7 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/3/validStacks/-",
+    "path": "/ingredients/4/validStacks/-",
     "value": [
         {
             "type": "item",
@@ -1388,7 +1388,7 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/4/validStacks/-",
+    "path": "/ingredients/5/validStacks/-",
     "value": [
         {
             "type": "item",
@@ -1882,7 +1882,7 @@
   },
   {
     "op": "addeach",
-    "path": "/ingredients/5/validStacks/-",
+    "path": "/ingredients/6/validStacks/-",
     "value": [
         {
             "type": "item",
@@ -2367,7 +2367,7 @@
   },
  {
     "op": "addmerge",
-    "path": "/ingredients/8",
+    "path": "/ingredients/9",
     "value": {
       "code": "topping-sauce",
       "validStacks": [
@@ -3268,7 +3268,7 @@
   },
  {
     "op": "addeach",
-    "path": "/ingredients/8/validStacks/-",
+    "path": "/ingredients/9/validStacks/-",
     "value": [   
         {
             "type": "item",
@@ -7778,7 +7778,7 @@
 
   {
     "op": "addmerge",
-    "path": "/ingredients/8/validStacks/-",
+    "path": "/ingredients/9/validStacks/-",
     "value": {
           "type": "item",
           "code": "expandedfoods:fishsauce",
@@ -7789,7 +7789,7 @@
   },
  {
     "op": "addmerge",
-    "path": "/ingredients/7",
+    "path": "/ingredients/8",
     "value": {
       "code": "dryfruit-extra",
       "validStacks": [
