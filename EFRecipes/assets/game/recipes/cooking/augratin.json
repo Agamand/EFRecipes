@@ -16,6 +16,7 @@
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
+	        "typeName": "cheese"
 		},
 		{
 			code: "milk-base", 
@@ -28,6 +29,7 @@
 			minQuantity: 1,
 			maxQuantity: 1,
 			portionSizeLitres: 0.1,
+	        "typeName": "cream"
 		},
 		{
 			code: "vegetable-base", 
@@ -99,6 +101,7 @@
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
+	        "typeName": "vegetable"
 		},
 		{
 			code: "vegetable-base2", 
@@ -172,6 +175,7 @@
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
+	        "typeName": "vegetable"
 		},
 		{ 
 			code: "egg-extra", 
@@ -180,7 +184,8 @@
 				{ type: "item", code: "egg-chicken-pickled",  shapeElement: "bowl/egg/*" },
 			],
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+	        "typeName": "egg"
 		},
 		{
 			code: "protein-extra",
@@ -248,7 +253,8 @@
 				{ type: "item", code: "expandedfoods:agedmeat-poultry-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
 			],
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+	        "typeName": "protein"
 		},
 		{
 			code: "meat-extra",
@@ -316,7 +322,8 @@
 				{ type: "item", code: "expandedfoods:agedmeat-poultry-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
 			],
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+	        "typeName": "meat"
 		},
 		{
 			code: "cheese-extra1", 
@@ -326,6 +333,7 @@
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
+	        "typeName": "cheese"
 		},
 		{
 			code: "cheese-extra2", 
@@ -335,6 +343,7 @@
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
+	        "typeName": "cheese"
 		},
 		{
 			code: "breadcrumbs-extra", 
@@ -343,7 +352,8 @@
 				{ type: "item", code: "expandedfoods:acornbreadcrumbs-*"},
 			],
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+	        "typeName": "breadcrumbs"
 		},
 		{
 			code: "topping-sauce", 
@@ -357,6 +367,7 @@
 			minQuantity: 0,
 			maxQuantity: 1,
 			portionSizeLitres: 0.1,
+	        "typeName": "sauce"
 		},
   		{
       			code: "nuts-extra1",
@@ -367,6 +378,7 @@
       			],
       			minQuantity: 0,
       			maxQuantity: 1,
+	        "typeName": "nuts"
     		},
     		{
       			code: "nuts-extra2",
@@ -377,12 +389,14 @@
       			],
       			minQuantity: 0,
       			maxQuantity: 1,
+	        "typeName": "nuts"
     		},
 		{
 			code: "salt", 
 			validStacks: [ { type: "item", code: "salt"}],
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+	        "typeName": "salt"
 		},
 	]
 }

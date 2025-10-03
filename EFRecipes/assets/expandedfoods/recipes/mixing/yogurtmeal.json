@@ -35,6 +35,7 @@
 			minQuantity: 1,
 			maxQuantity: 1,
 			portionSizeLitres: 0.5,
+			"typeName": "yogurt"
 		},
 		{
 			code: "fruit-extra",
@@ -96,7 +97,8 @@
 				{ type: "item", code: "expandedfoods:candiedfruit-pomegranate",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "fruit-pomegranate"] },
  			], 
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+			"typeName": "fruit"
 		},
 		{
 			code: "fruit-extra2",
@@ -158,7 +160,8 @@
 				{ type: "item", code: "expandedfoods:candiedfruit-pomegranate",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "fruit-pomegranate"] },
  			], 
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+			"typeName": "fruit"
 		},
 		{
 			code: "fruit-extra3",
@@ -202,7 +205,8 @@
 				{ type: "item", code: "expandedfoods:dehydratedfruit-pomegranate",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "fruit-pomegranate"] },
  			], 
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+			"typeName": "fruit"
 		},
 		{
 			code: "fruit-extra4",
@@ -246,7 +250,8 @@
 				{ type: "item", code: "expandedfoods:dehydratedfruit-pomegranate",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "fruit-pomegranate"] },
  			], 
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+			"typeName": "fruit"
 		},
 		{
 			code: "vegetable-extra1",
@@ -257,6 +262,7 @@
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
+			"typeName": "vegetable"
 		},
 		{
 			code: "vegetable-extra2",
@@ -267,6 +273,7 @@
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
+			"typeName": "vegetable"
 		},
 		{
 			code: "topping-sauce", 
@@ -314,6 +321,7 @@
 			minQuantity: 0,
 			maxQuantity: 1,
 			portionSizeLitres: 0.1,
+			"typeName": "sauce"
 		}
 	]
 }
