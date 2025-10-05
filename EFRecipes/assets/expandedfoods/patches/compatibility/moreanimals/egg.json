@@ -15,12 +15,6 @@
   },
   {
     "op": "remove",
-    "path": "/texture",
-    "side": "server",
-    "file": "moreanimals:itemtypes/egg.json"
-  },
-  {
-    "op": "remove",
     "path": "/transitionableProps",
     "side": "server",
     "file": "moreanimals:itemtypes/egg.json"
