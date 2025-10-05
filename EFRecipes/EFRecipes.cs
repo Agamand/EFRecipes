@@ -15,6 +15,10 @@ namespace EFRecipes
 
         public override void Start(ICoreAPI api)
 		 {
+
+            var me = api.ModLoader.Mods.FirstOrDefault((m) => m.Info.ModID == "expandedfoodspatch");
+            me.Info.ModID = "expandedfoods"; // identify as expandedfoods
+
             _harmony = new Harmony("ExpandedFoods.Patches");
             _harmony.PatchAll(typeof(EFRecipes).Assembly);
 
