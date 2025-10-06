@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>$(FrameworkVersion)</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
   </PropertyGroup>
-
+  <PropertyGroup Condition="Exists('$(CustomOuput)')"> 
+    <OutputPath>$(CustomOuput)\ef</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="VintagestoryAPI">
       <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
