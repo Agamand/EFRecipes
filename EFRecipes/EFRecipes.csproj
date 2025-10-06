@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>$(FrameworkVersion)</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <OutputPath>$(ProjectDir)bin\$(Configuration)\Mods\mod</OutputPath>
+    <OutputPath>bin\$(Configuration)\Mods\mod</OutputPath>
   </PropertyGroup>
-  <!-- Use in multi mod sln -->
-  <PropertyGroup Condition="Exists('$(CustomOuput)')">
+  <PropertyGroup Condition="Exists('$(CustomOuput)')"> 
     <OutputPath>$(CustomOuput)\ef</OutputPath>
   </PropertyGroup>
   <ItemGroup>
