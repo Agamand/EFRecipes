@@ -2064,8 +2064,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/5",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "breadcrumbs-extra",
 			"validStacks": [
@@ -2119,8 +2119,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/6",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "salt",
 			"validStacks": [
@@ -2137,8 +2137,8 @@
 		"file": "recipes/cooking/soup.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/7",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "eggyolk",
 			"validStacks": [
@@ -2197,8 +2197,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/8",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "noodles",
 			"validStacks": [

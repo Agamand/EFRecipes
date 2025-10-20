@@ -301,7 +301,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/2/validStacks/-",
+		"path": "/ingredients/3/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -778,7 +778,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/2/validStacks/-",
+		"path": "/ingredients/3/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -872,7 +872,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/3/validStacks/-",
+		"path": "/ingredients/4/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -1330,7 +1330,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/3/validStacks/-",
+		"path": "/ingredients/4/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -1424,7 +1424,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/4/validStacks/-",
+		"path": "/ingredients/5/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -1918,7 +1918,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/5/validStacks/-",
+		"path": "/ingredients/6/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -2402,8 +2402,8 @@
 		"file": "recipes/cooking/meatystew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/8",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "topping-sauce",
 			"validStacks": [
@@ -3313,8 +3313,8 @@
 		"file": "recipes/cooking/meatystew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/7",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "dryfruit-extra",
 			"validStacks": [
@@ -3651,8 +3651,8 @@
 		"file": "recipes/cooking/meatystew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/9",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "breadcrumbs-extra",
 			"validStacks": [
@@ -3670,7 +3670,7 @@
 	},
 	{
 		"op": "addmerge",
-		"path": "/ingredients/9/validStacks/-",
+		"path": "/ingredients/11/validStacks/-",
 		"value": {
 			"type": "item",
 			"code": "expandedfoods:acornbreadcrumbs-*"
@@ -3684,8 +3684,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/10",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "salt",
 			"validStacks": [
@@ -3702,8 +3702,8 @@
 		"file": "recipes/cooking/meatystew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/11",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "broth",
 			"validStacks": [
@@ -3789,8 +3789,8 @@
 		"file": "recipes/cooking/meatystew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/12",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "nuts-extra1",
 			"validStacks": [
@@ -3830,8 +3830,8 @@
 		"file": "recipes/cooking/meatystew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/13",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "nuts-extra2",
 			"validStacks": [
@@ -3871,8 +3871,8 @@
 		"file": "recipes/cooking/meatystew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/14",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "eggyolk",
 			"validStacks": [
@@ -3895,7 +3895,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/14/validStacks/-",
+		"path": "/ingredients/16/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -3931,8 +3931,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/15",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "pasta",
 			"validStacks": [

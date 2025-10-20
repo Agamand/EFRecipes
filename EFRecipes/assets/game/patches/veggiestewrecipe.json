@@ -1958,8 +1958,8 @@
 		"file": "recipes/cooking/vegetablestew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/4",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "topping-sauce",
 			"validStacks": [
@@ -2869,8 +2869,8 @@
 		"file": "recipes/cooking/vegetablestew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/5",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "breadcrumbs-extra",
 			"validStacks": [
@@ -2902,8 +2902,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/6",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "salt",
 			"validStacks": [
@@ -2920,8 +2920,8 @@
 		"file": "recipes/cooking/vegetablestew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/7",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "nuts-extra1",
 			"validStacks": [
@@ -2981,10 +2981,10 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/8",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
-			"code": "nuts-extra1",
+			"code": "nuts-extra2",
 			"validStacks": [
 				{
 					"type": "item",
@@ -3042,8 +3042,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/9",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "broth",
 			"validStacks": [
@@ -3129,8 +3129,8 @@
 		"file": "recipes/cooking/vegetablestew.json"
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/10",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "eggyolk",
 			"validStacks": [
@@ -3153,7 +3153,7 @@
 	},
 	{
 		"op": "addeach",
-		"path": "/ingredients/10/validStacks/-",
+		"path": "/ingredients/8/validStacks/-",
 		"value": [
 			{
 				"type": "item",
@@ -3189,8 +3189,8 @@
 		]
 	},
 	{
-		"op": "addmerge",
-		"path": "/ingredients/11",
+		"op": "add",
+		"path": "/ingredients/-",
 		"value": {
 			"code": "pasta",
 			"validStacks": [
