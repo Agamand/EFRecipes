@@ -1,7 +1,7 @@
 [
 	{
 		"op": "addeach",
-		"path": "/ingredients/*..[?(@..code == 'protein-base')]/validStacks/-",
+		"path": "/ingredients/0/validStacks/-",
 		"value": [
 			{
 				"type": "item",
